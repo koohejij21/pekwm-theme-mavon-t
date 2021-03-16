@@ -252,6 +252,59 @@ Decor = "STATUSWINDOW" {
 	}
 }
 
+Decor = "WORKSPACEINDICATOR" {
+	Title {
+		Height = "0"
+		Pad = "0 0 0 0"
+
+		Focused = "EMPTY"
+		Unfocused = "EMPTY"
+
+		Tab {
+			Focused = "EMPTY"
+			FocusedSelected = "EMPTY"
+			Unfocused = "EMPTY"
+			UnfocusedSelected = "EMPTY"
+		}
+		Separator {
+			Focused = "EMPTY"
+			Unfocused = "EMPTY"
+		}
+		Font {
+			Focused = "EMPTY"
+		}
+		FontColor {
+			Focused = "EMPTY
+			FocusedSelected = "EMPTY"
+			Unfocused = "EMPTY"
+			UnfocusedSelected = "EMPTY"
+		}
+		Buttons {
+		}
+		Border {
+			Focused {
+				Left = "Image b-l.xpm"
+				Right = "Image b-r.xpm"
+				BottomLeft = "Image b-lc.xpm"
+				Bottom = "Image b-b.xpm"
+				BottomRight = "Image b-rc.xpm"
+				TopLeft = "Image b-lct.xpm"
+				Top = "Image b-b.xpm"
+				TopRight = "Image b-rct.xpm"
+			}
+			Unfocused {
+				Left = "Image bunfocus/b-l.xpm"
+				Right = "Image bunfocus/b-r.xpm"
+				BottomLeft = "Image bunfocus/b-lc.xpm"
+				Bottom = "Image bunfocus/b-b.xpm"
+				BottomRight = "Image bunfocus/b-rc.xpm"
+				TopLeft = "Image bunfocus/b-lct.xpm"
+				Top = "Image bunfocus/b-b.xpm"
+				TopRight = "Image bunfocus/b-rct.xpm"
+			}
+		}
+	}
+}
 
 }
 
