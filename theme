@@ -3,14 +3,14 @@
 # Date: 02.12.2005
 # Updated: 29.01.2021
 
-$FONT = "X11#-*-anorexia-*-*-*-*-*-*-*-*-*-*-*-*"
+$FONT = "Sans:size=9"
 
 PDecor {
 
 Decor = "DEFAULT" {
 	Title {
 		Height = "18"
-		Pad = "5 0 4 0"
+		Pad = "3 0 4 0"
 
 		Focused = "Image win-fo.xpm"
 		Unfocused = "Image win-un.xpm"
@@ -150,7 +150,7 @@ Decor = "TITLEBARLESS" {
 Decor = "MENU" {
 	Title {
 		Height = "15"
-		Pad = "3 0 2 0"
+		Pad = "1 0 2 0"
 
 		Focused = "Empty"
 		Unfocused = "Empty"
